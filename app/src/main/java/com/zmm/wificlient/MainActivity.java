@@ -115,6 +115,7 @@ public class MainActivity extends AppCompatActivity implements SocketClient.Conn
                 Collections.sort(scanResults, new SortResultsByLevel());
                 scanResultWithLocks = new ArrayList<>();
                 for (ScanResult scanResult : scanResults) {
+                    System.out.println("扫描结果result："+scanResult.toString());
                     boolean isLocked;
                     if (scanResult.capabilities.length() <= 5) {
                         isLocked = false;
