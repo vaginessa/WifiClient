@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">WifiClient</string>
+    <string name="dialog_connect_less_than8">密码位数应大于8位</string>
+</resources>
